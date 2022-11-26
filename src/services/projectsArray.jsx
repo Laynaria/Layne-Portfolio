@@ -43,7 +43,7 @@ const projectsArray = [
     img: toastyMood,
     link: `https://toasty-mood.netlify.app/`,
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P2-Team-Eagle`,
-    hashtags: "#React #JSX #CSS #API #Javascript",
+    hashtags: "#React #JSX #CSS #API #Javascript #Scrum",
     desc: "Toasty Mood est un projet d'application lifestyle de journal intime combiné avec une API de météo.",
     descTwo:
       "L'idée était que l'utilisateur pourrait comparer les humeurs qu'il enregistre à travers les jours avec la météo afin de voir son influence!",
@@ -66,7 +66,7 @@ const projectsArray = [
     alt: "Portfolio Layne Logo",
     img: portfolioLayne,
     link: ``,
-    github: ``,
+    github: `https://github.com/Laynaria/Layne-Portfolio`,
     hashtags: "#React #JSX #SASS #CSS #Javascript",
     desc: "Ce projet est tout simplement celui de mon portfolio que vous avez actuellement sous les yeux, il n'est donc pas nécessaire de cliquer sur le lien pour y accéder",
   },

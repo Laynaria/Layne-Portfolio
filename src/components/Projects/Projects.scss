@@ -43,6 +43,16 @@ $primary-color: white;
         img {
           filter: invert(100%);
         }
+
+        img:hover {
+          filter: invert(100%) hue-rotate(30deg) brightness(170%)
+            drop-shadow(0 0 0.1rem yellow);
+        }
+
+        .unclickable {
+          pointer-events: none;
+          filter: invert(50%);
+        }
       }
     }
 
