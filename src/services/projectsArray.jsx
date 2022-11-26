@@ -31,7 +31,7 @@ const projectsArray = [
     logo: portfolioAriaLogo,
     alt: "Portfolio Aria Logo",
     img: portfolioAria,
-    link: ``,
+    link: `https://aria-portfolio.netlify.app/`,
     github: `https://github.com/Laynaria/Aria-Portfolio`,
     hashtags: "#React #JSX #CSS #Javascript",
     desc: "Aria est une illustratrice et une touche à tout des métiers graphiques. Elle m'a solicité afin de lui réaliser un portfolio graphique avec des animations, notament celui d'un fil qui se dessine lorsque la page défile.",
