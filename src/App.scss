@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/Montserrat-Regular.ttf);
+}
+
+$font-stack: "Montserrat";
+$primary-color: white;
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 95%;
+}
+
+body {
+  font-family: $font-stack;
+}
+
+#avatar {
+  border-radius: 300px;
+}
