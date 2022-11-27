@@ -7,58 +7,61 @@ import "./Projects.scss";
 function Card() {
   return (
     <section id="projectsSection">
-      {projectsArray.map((stack) => (
-        <>
-          <div className="Card">
-            {/* Title of Card */}
-            <h1 className="titleCard">
-              <img src={stack.logo} width="50px" alt={stack.alt} />
-              {stack.name}
-              <span className="spanTitleCard">
-                <a
-                  href={stack.link}
-                  target="_blank"
-                  className={stack.link === "" ? "unclickable" : ""}
-                >
-                  <img
-                    src={siteIcon}
-                    alt="Website External Link Icon"
-                    width="30px"
+      <h1>Projects</h1>
+      <div id="projectsCards">
+        {projectsArray.map((stack) => (
+          <>
+            <div className="Card">
+              {/* Title of Card */}
+              <h2 className="titleCard">
+                <img src={stack.logo} width="50px" alt={stack.alt} />
+                {stack.name}
+                <span className="spanTitleCard">
+                  <a
+                    href={stack.link}
+                    target="_blank"
                     className={stack.link === "" ? "unclickable" : ""}
-                  />
-                </a>
-                <a
-                  href={stack.github}
-                  target="_blank"
-                  className={stack.github === "" ? "unclickable" : ""}
-                >
-                  <img
-                    src={githubIcon}
-                    alt="Github External Link Icon"
-                    width="30px"
+                  >
+                    <img
+                      src={siteIcon}
+                      alt="Website External Link Icon"
+                      width="30px"
+                      className={stack.link === "" ? "unclickable" : ""}
+                    />
+                  </a>
+                  <a
+                    href={stack.github}
+                    target="_blank"
                     className={stack.github === "" ? "unclickable" : ""}
-                  />
-                </a>
-              </span>
-            </h1>
+                  >
+                    <img
+                      src={githubIcon}
+                      alt="Github External Link Icon"
+                      width="30px"
+                      className={stack.github === "" ? "unclickable" : ""}
+                    />
+                  </a>
+                </span>
+              </h2>
 
-            <div className="bodyCard">
-              <img
-                src={stack.img}
-                alt={`${stack.name} website picture`}
-                width="100%"
-              />
-              <p className="description">{stack.desc}</p>
-              {stack.descTwo ? (
-                <p className="descriptionTwo">{stack.descTwo}</p>
-              ) : (
-                ""
-              )}
+              <div className="bodyCard">
+                <img
+                  src={stack.img}
+                  alt={`${stack.name} website picture`}
+                  width="100%"
+                />
+                <p className="description">{stack.desc}</p>
+                {stack.descTwo ? (
+                  <p className="descriptionTwo">{stack.descTwo}</p>
+                ) : (
+                  ""
+                )}
+              </div>
+              <p className="hashtags">{stack.hashtags}</p>
             </div>
-            <p className="hashtags">{stack.hashtags}</p>
-          </div>
-        </>
-      ))}
+          </>
+        ))}
+      </div>
     </section>
   );
 }

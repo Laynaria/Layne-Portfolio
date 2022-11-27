@@ -22,7 +22,7 @@ const projectsArray = [
     link: `https://wildcodeschool.github.io/2022-09-JS-RemoteFR-LesCrewStillants-P1-Chocolaterie/`,
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P1-Chocolaterie`,
     hashtags: "#HTML #CSS #Javascript",
-    desc: "Chocolat'Inn est un projet de petite site vitrine pour un Chocolatier fictif. Nous avions douze jours pour le réaliser avec une équipe de cinq personnes au total.",
+    desc: "Chocolat'Inn est un projet de petit site vitrine pour un Chocolatier fictif. Nous avions douze jours pour le réaliser avec une équipe de cinq personnes au total.",
     descTwo:
       "Nous avons réalisé ce projet au tout début de notre formation à la Wild Code School.",
   },
@@ -34,7 +34,7 @@ const projectsArray = [
     link: `https://aria-portfolio.netlify.app/`,
     github: `https://github.com/Laynaria/Aria-Portfolio`,
     hashtags: "#React #JSX #CSS #Javascript",
-    desc: "Aria est une illustratrice et une touche à tout des métiers graphiques. Elle m'a solicité afin de lui réaliser un portfolio graphique avec des animations, notament celui d'un fil qui se dessine lorsque la page défile.",
+    desc: "Aria est une illustratrice et une touche à tout des métiers graphiques. Elle m'a sollicité afin de lui réaliser un portfolio graphique avec des animations, notamment celui d'un fil qui se dessine lorsque la page défile.",
   },
   {
     name: "Toasty Mood",
