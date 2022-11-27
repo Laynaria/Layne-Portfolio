@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(../assets/Montserrat-Regular.ttf);
+  src: url(./assets/Montserrat-Regular.ttf);
 }
 
-$font-stack: "Montserrat";
+$font-stack: "Montserrat", sans-serif;
 $primary-color: white;
 
 #root {
