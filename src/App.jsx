@@ -1,6 +1,7 @@
 import Welcome from "./components/Welcome/Welcome";
 import Card from "./components/card";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer.jsx";
 import "./App.scss";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Welcome />
       {/* <Card /> */}
       <Projects />
+      <Footer />
     </div>
   );
 }
