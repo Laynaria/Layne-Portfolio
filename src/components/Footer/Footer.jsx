@@ -12,7 +12,12 @@ function Footer() {
           </a>
         ))}
       </div>
-      <h3>Copyrights©laynaria.com</h3>
+      <h3>
+        Copyrights©
+        <a href="https://laynaria.com" target="_blank" alt="Laynaria website">
+          laynaria.com
+        </a>
+      </h3>
     </footer>
   );
 }
