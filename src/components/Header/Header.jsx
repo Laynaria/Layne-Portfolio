@@ -29,37 +29,38 @@ function Header() {
 
   return (
     <header>
-      {/* Menu Logo */}
-      <span id="logoMenu" onClick={scrollToTop}>
-        Home
-      </span>
-
-      {/* Burger Menu Icon */}
       {isBurger ? (
-        <img
-          className="burger"
-          src={cross}
-          alt="Burger Menu Icon Open"
-          onClick={burgerHandler}
-        />
-      ) : (
-        <img
-          className="burger"
-          src={burger}
-          alt="Burger Menu Icon Closed"
-          onClick={burgerHandler}
-        />
-      )}
+        <>
+          {/* Website Logo, for now it's just a text*/}
+          <span id="logoMenu" onClick={scrollToTop}>
+            Home
+          </span>
 
-      {/* Navigation */}
-      {isBurger ? (
-        <nav>
-          <ul>
-            <li onClick={scrollToProjects}>Projects</li>
-          </ul>
-        </nav>
+          {/* Burger Menu Icon when Open = cross*/}
+          <img
+            className="burger"
+            src={cross}
+            alt="Burger Menu Icon Open"
+            onClick={burgerHandler}
+          />
+
+          {/* Navigation */}
+          <nav>
+            <ul>
+              <li onClick={scrollToProjects}>Projects</li>
+            </ul>
+          </nav>
+        </>
       ) : (
-        ""
+        <>
+          {/* Burger Menu Icon when Closed*/}
+          <img
+            className="burger"
+            src={burger}
+            alt="Burger Menu Icon Closed"
+            onClick={burgerHandler}
+          />
+        </>
       )}
     </header>
   );
