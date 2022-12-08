@@ -1,8 +1,8 @@
-import fbImg from "../assets/socialNetworks/facebook.png";
-import twitImg from "../assets/socialNetworks/twitter.png";
-import instaImg from "../assets/socialNetworks/insta.png";
-import linkedImg from "../assets/socialNetworks/linkedin.png";
-import githubImg from "../assets/socialNetworks/github.png";
+import fbImg from "../assets/socialNetworks/Facebook.svg";
+import twitImg from "../assets/socialNetworks/Twitter.svg";
+import instaImg from "../assets/socialNetworks/Instagram.svg";
+import linkedImg from "../assets/socialNetworks/Linkedin.svg";
+import githubImg from "../assets/socialNetworks/Github.svg";
 
 const socialNetworks = [
   {

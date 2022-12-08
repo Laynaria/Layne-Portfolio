@@ -1,0 +1,12 @@
+header {
+  #burger {
+    img {
+      position: fixed;
+      top: 2rem;
+      right: 2rem;
+      z-index: 5;
+      width: 2 rem;
+      filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
+    }
+  }
+}
