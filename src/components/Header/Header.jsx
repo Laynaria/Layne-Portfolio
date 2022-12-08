@@ -31,7 +31,7 @@ function Header() {
     <header>
       {/* Menu Logo */}
       <span id="logoMenu" onClick={scrollToTop}>
-        H
+        Home
       </span>
 
       {/* Burger Menu Icon */}

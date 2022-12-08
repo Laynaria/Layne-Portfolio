@@ -2,8 +2,11 @@
 
 header {
   font-size: 2rem;
+  background-color: $secondary-color-quarter-transparent;
+  z-index: 5;
 
   #logoMenu {
+    z-index: 6;
     position: fixed;
     top: 2rem;
     right: 8rem;
@@ -14,18 +17,29 @@ header {
   }
 
   .burger {
+    z-index: 6;
     position: fixed;
     top: 2rem;
     right: 2rem;
-    z-index: 5;
     width: 2 rem;
     filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
   }
 
   nav {
+    z-index: 5;
+    width: 100%;
+    background-color: $secondary-color-quarter-transparent;
+    height: 100%;
     position: fixed;
-    top: 4rem;
-    right: 5rem;
+    top: 0;
+    right: 0;
+    padding-top: 4rem;
+    padding-right: 6.1rem;
+    border-left: 1px solid yellow;
+
+    @media screen and (min-width: 1020px) {
+      width: initial;
+    }
     ul {
       list-style: none;
       li:hover {
