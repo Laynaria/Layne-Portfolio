@@ -32,9 +32,9 @@ function Header() {
       {isBurger ? (
         <>
           {/* Website Logo, for now it's just a text*/}
-          <span id="logoMenu" onClick={scrollToTop}>
+          {/* <span id="logoMenu" onClick={scrollToTop}>
             Home
-          </span>
+          </span> */}
 
           {/* Burger Menu Icon when Open = cross*/}
           <img
@@ -47,6 +47,7 @@ function Header() {
           {/* Navigation */}
           <nav>
             <ul>
+              <li onClick={scrollToTop}>Home</li>
               <li onClick={scrollToProjects}>Projects</li>
             </ul>
           </nav>

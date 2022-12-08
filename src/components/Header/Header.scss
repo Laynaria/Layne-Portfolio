@@ -9,7 +9,10 @@ header {
     z-index: 6;
     position: fixed;
     top: 2rem;
-    right: 8rem;
+
+    @media screen and (min-width: 1020px) {
+      right: 8rem;
+    }
 
     &:hover {
       filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
@@ -31,19 +34,25 @@ header {
     background-color: $secondary-color-quarter-transparent;
     height: 100%;
     position: fixed;
-    top: 0;
-    right: 0;
-    padding-top: 4rem;
-    padding-right: 6.1rem;
-    border-left: 1px solid yellow;
+    top: -1px;
+    // padding-top: 4rem;
 
     @media screen and (min-width: 1020px) {
+      border-left: 1px solid yellow;
+      right: 0;
+      padding-right: 6.1rem;
+      padding-left: 6.1rem;
       width: initial;
+      text-align: left;
     }
     ul {
+      padding: 0;
       list-style: none;
-      li:hover {
-        filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
+      li {
+        padding-bottom: 3rem;
+        &:hover {
+          filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
+        }
       }
     }
   }
