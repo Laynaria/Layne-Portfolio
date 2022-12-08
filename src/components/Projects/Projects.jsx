@@ -9,36 +9,36 @@ function Card() {
     <section id="projectsSection">
       <h1>Projects</h1>
       <div id="projectsCards">
-        {projectsArray.map((stack) => (
+        {projectsArray.map((project) => (
           <>
             <div className="Card">
               {/* Title of Card */}
               <h2 className="titleCard">
-                <img src={stack.logo} width="50px" alt={stack.alt} />
-                {stack.name}
+                <img src={project.logo} width="50px" alt={project.alt} />
+                {project.name}
                 <span className="spanTitleCard">
                   <a
-                    href={stack.link}
+                    href={project.link}
                     target="_blank"
-                    className={stack.link === "" ? "unclickable" : ""}
+                    className={project.link === "" ? "unclickable" : ""}
                   >
                     <img
                       src={siteIcon}
                       alt="Website External Link Icon"
                       width="30px"
-                      className={stack.link === "" ? "unclickable" : ""}
+                      className={project.link === "" ? "unclickable" : ""}
                     />
                   </a>
                   <a
-                    href={stack.github}
+                    href={project.github}
                     target="_blank"
-                    className={stack.github === "" ? "unclickable" : ""}
+                    className={project.github === "" ? "unclickable" : ""}
                   >
                     <img
                       src={githubIcon}
                       alt="Github External Link Icon"
                       width="30px"
-                      className={stack.github === "" ? "unclickable" : ""}
+                      className={project.github === "" ? "unclickable" : ""}
                     />
                   </a>
                 </span>
@@ -46,18 +46,18 @@ function Card() {
 
               <div className="bodyCard">
                 <img
-                  src={stack.img}
-                  alt={`${stack.name} website picture`}
+                  src={project.img}
+                  alt={`${project.name} website picture`}
                   width="100%"
                 />
-                <p className="description">{stack.desc}</p>
-                {stack.descTwo ? (
-                  <p className="descriptionTwo">{stack.descTwo}</p>
+                <p className="description">{project.desc}</p>
+                {project.descTwo ? (
+                  <p className="descriptionTwo">{project.descTwo}</p>
                 ) : (
                   ""
                 )}
               </div>
-              <p className="hashtags">{stack.hashtags}</p>
+              <p className="hashtags">{project.hashtags}</p>
             </div>
           </>
         ))}

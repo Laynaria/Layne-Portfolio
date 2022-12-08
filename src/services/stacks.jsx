@@ -2,7 +2,7 @@ import reactLogo from "../assets/react.png";
 
 const stacks = [
   {
-    name: "React",
+    name: "Frontend",
     img: reactLogo,
     alt: "React Logo",
     descPartOne: `React is a `,
