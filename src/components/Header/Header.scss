@@ -1,12 +1,36 @@
+@import "../../assets/variables.scss";
+
 header {
-  #burger {
-    img {
-      position: fixed;
-      top: 2rem;
-      right: 2rem;
-      z-index: 5;
-      width: 2 rem;
+  font-size: 2rem;
+
+  #logoMenu {
+    position: fixed;
+    top: 2rem;
+    right: 8rem;
+
+    &:hover {
       filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
+    }
+  }
+
+  .burger {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 5;
+    width: 2 rem;
+    filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
+  }
+
+  nav {
+    position: fixed;
+    top: 4rem;
+    right: 5rem;
+    ul {
+      list-style: none;
+      li:hover {
+        filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
+      }
     }
   }
 }
