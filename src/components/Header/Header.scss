@@ -22,8 +22,9 @@ header {
   .burger {
     z-index: 6;
     position: fixed;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem;
     width: 2 rem;
     filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
   }
