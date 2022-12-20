@@ -38,12 +38,18 @@ header {
     // padding-top: 4rem;
 
     @media screen and (min-width: 1020px) {
-      border-left: 1px solid yellow;
+      border-left: 3px solid;
       right: 0;
       padding-right: 6.1rem;
       padding-left: 6.1rem;
       width: initial;
       text-align: left;
+      border-image: linear-gradient(
+          rgba(233, 68, 68, 0) 5%,
+          yellow 49.95%,
+          rgba(233, 68, 68, 0) 95%
+        )
+        1 100%;
     }
     ul {
       padding: 0;
