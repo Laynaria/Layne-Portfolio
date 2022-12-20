@@ -25,6 +25,7 @@ const projectsArray = [
     desc: "Chocolat'Inn est un projet de petit site vitrine pour un Chocolatier fictif. Nous avions douze jours pour le réaliser avec une équipe de cinq personnes au total.",
     descTwo:
       "Nous avons réalisé ce projet au tout début de notre formation à la Wild Code School.",
+    status: "Terminé",
   },
   {
     name: "Portfolio Aria",
@@ -35,9 +36,10 @@ const projectsArray = [
     github: `https://github.com/Laynaria/Aria-Portfolio`,
     hashtags: "#React #JSX #CSS #Javascript",
     desc: "Aria est une illustratrice et une touche à tout des métiers graphiques. Elle m'a sollicité afin de lui réaliser un portfolio graphique avec des animations, notamment celui d'un fil qui se dessine lorsque la page défile.",
+    status: "En cours",
   },
   {
-    name: "Toasty Mood",
+    name: "Toasty Mood v1",
     logo: toastyMoodLogo,
     alt: "Toasty Mood Logo",
     img: toastyMood,
@@ -47,6 +49,7 @@ const projectsArray = [
     desc: "Toasty Mood est un projet d'application lifestyle de journal intime combiné avec une API de météo.",
     descTwo:
       "L'idée était que l'utilisateur pourrait comparer les humeurs qu'il enregistre à travers les jours avec la météo afin de voir son influence!",
+    status: "Terminé",
   },
   {
     name: "Wizard Code School",
@@ -59,6 +62,7 @@ const projectsArray = [
     desc: "Moins de 30 heures pour coder un projet en rapport avec le thème voyage pour un Hackathon de la Wild Code School.",
     descTwo:
       "Un challenge que nous avons sû relever avec humour dans une petite histoire mélangeant l'univers de Harry Potter et de la Wild Code School. L'équipe était encore une fois composée de cinq personnes!",
+    status: "Terminé",
   },
   {
     name: "Portfolio Layne",
@@ -69,6 +73,7 @@ const projectsArray = [
     github: `https://github.com/Laynaria/Layne-Portfolio`,
     hashtags: "#React #JSX #SASS #CSS #Javascript",
     desc: "Ce projet est tout simplement celui de mon portfolio que vous avez actuellement sous les yeux, il n'est donc pas nécessaire de cliquer sur le lien pour y accéder",
+    status: "En cours",
   },
 ];
 

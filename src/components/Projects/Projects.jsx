@@ -57,7 +57,10 @@ function Card() {
                   ""
                 )}
               </div>
-              <p className="hashtags">{project.hashtags}</p>
+              <p className="hashtags">
+                <span>{project.hashtags}</span>
+                <span>{project.status}</span>
+              </p>
             </div>
           </>
         ))}
