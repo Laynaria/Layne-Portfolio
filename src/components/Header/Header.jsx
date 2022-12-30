@@ -1,7 +1,4 @@
 import { useState } from "react";
-import burger from "../../assets/Burger.svg";
-import cross from "../../assets/Cross.svg";
-
 import "./Header.scss";
 
 function Header() {
@@ -29,22 +26,15 @@ function Header() {
 
   return (
     <header>
+      <label for="burger" className="burger">
+        <input id="burger" type="checkbox" onClick={burgerHandler} />
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      {/* Burger Open? Show Navigation else nothing*/}
       {isBurger ? (
         <>
-          {/* Website Logo, for now it's just a text*/}
-          {/* <span id="logoMenu" onClick={scrollToTop}>
-            Home
-          </span> */}
-
-          {/* Burger Menu Icon when Open = cross*/}
-          <img
-            className="burger"
-            src={cross}
-            alt="Burger Menu Icon Open"
-            onClick={burgerHandler}
-          />
-
-          {/* Navigation */}
           <nav>
             <ul>
               <li onClick={scrollToTop}>Home</li>
@@ -53,15 +43,7 @@ function Header() {
           </nav>
         </>
       ) : (
-        <>
-          {/* Burger Menu Icon when Closed*/}
-          <img
-            className="burger"
-            src={burger}
-            alt="Burger Menu Icon Closed"
-            onClick={burgerHandler}
-          />
-        </>
+        ""
       )}
     </header>
   );
