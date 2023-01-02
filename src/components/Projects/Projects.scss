@@ -21,6 +21,7 @@
       font-family: $font-stack;
       border-radius: 1rem;
       border: 1px solid $primary-color;
+      transition: 500ms;
 
       @media screen and (min-width: 1020px) {
         width: 33%;
@@ -83,6 +84,7 @@
           padding-bottom: 0;
         }
       }
+
       span,
       .hashtags {
         color: yellow;
@@ -102,7 +104,6 @@
 
     .Card:hover {
       background-color: rgb(45, 51, 102);
-      transition: 500ms;
       transform: scale(1.1);
     }
   }
