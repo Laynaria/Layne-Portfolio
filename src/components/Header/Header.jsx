@@ -33,18 +33,12 @@ function Header() {
         <span></span>
       </label>
       {/* Burger Open? Show Navigation else nothing*/}
-      {isBurger ? (
-        <>
-          <nav>
-            <ul>
-              <li onClick={scrollToTop}>Home</li>
-              <li onClick={scrollToProjects}>Projects</li>
-            </ul>
-          </nav>
-        </>
-      ) : (
-        ""
-      )}
+      <nav className={isBurger ? "showNav" : "hideNav"}>
+        <ul>
+          <li onClick={scrollToTop}>Home</li>
+          <li onClick={scrollToProjects}>Projects</li>
+        </ul>
+      </nav>
     </header>
   );
 }

@@ -107,17 +107,8 @@ header {
     height: 100%;
     position: fixed;
     top: -1px;
+    transition: 0.25s ease;
     // padding-top: 4rem;
-    animation: animNav 0.25s ease;
-
-    @keyframes animNav {
-      from {
-        transform: translateX(500px);
-      }
-      to {
-        transform: translateX(0px);
-      }
-    }
 
     @media screen and (min-width: 1020px) {
       border-left: 3px solid;
@@ -143,5 +134,13 @@ header {
         }
       }
     }
+  }
+
+  .showNav {
+    transform: translateX(0px);
+  }
+
+  .hideNav {
+    transform: translateX(500px);
   }
 }
