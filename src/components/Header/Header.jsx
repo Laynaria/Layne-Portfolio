@@ -32,6 +32,11 @@ function Header() {
         <span></span>
         <span></span>
       </label>
+
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider"></span>
+      </label>
       {/* Burger Open? Show Navigation else nothing*/}
       <nav className={isBurger ? "showNav" : "hideNav"}>
         <ul>
