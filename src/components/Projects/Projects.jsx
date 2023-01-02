@@ -4,10 +4,10 @@ import siteIcon from "../../assets/projectsPicture/siteIcon.svg";
 import githubIcon from "../../assets/projectsPicture/githubIcon.svg";
 import "./Projects.scss";
 
-function Card() {
+function Card({ language }) {
   return (
     <section id="projectsSection">
-      <h1>Projects</h1>
+      <h1>{language === "fr" ? "Projets" : "Projects"}</h1>
       <div id="projectsCards">
         {projectsArray.map((project) => (
           <>
@@ -50,16 +50,16 @@ function Card() {
                   alt={`${project.name} website picture`}
                   width="100%"
                 />
-                <p className="description">{project.desc}</p>
+                <p className="description">{project.desc[language]}</p>
                 {project.descTwo ? (
-                  <p className="descriptionTwo">{project.descTwo}</p>
+                  <p className="descriptionTwo">{project.descTwo[language]}</p>
                 ) : (
                   ""
                 )}
               </div>
               <p className="hashtags">
                 <span>{project.hashtags}</span>
-                <span>{project.status}</span>
+                <span>{project.status[language]}</span>
               </p>
             </div>
           </>

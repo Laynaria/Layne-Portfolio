@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Header from "./components/Header/Header";
 import Welcome from "./components/Welcome/Welcome";
 import Projects from "./components/Projects/Projects";
@@ -6,12 +8,14 @@ import BackgroundAnimation from "./components/BackgroundAnimation/BackgroundAnim
 import "./App.scss";
 
 function App() {
+  const [language, setLanguage] = useState("fr");
+
   return (
     <div className="App">
       <BackgroundAnimation />
-      <Header />
-      <Welcome />
-      <Projects />
+      <Header language={language} setLanguage={setLanguage} />
+      <Welcome language={language} />
+      <Projects language={language} />
       <Footer />
     </div>
   );
