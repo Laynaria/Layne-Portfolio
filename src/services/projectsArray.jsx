@@ -13,6 +13,9 @@ import wizardCodeSchoolLogo from "../assets/projectsPicture/WizardCodeSchoolLogo
 import portfolioLayne from "../assets/projectsPicture/PortfolioLayne.png";
 import portfolioLayneLogo from "../assets/Laynevatar.png";
 
+import greenRent from "../assets/projectsPicture/GreenRent.png";
+import greenRentLogo from "../assets/projectsPicture/leaf.svg";
+
 const projectsArray = [
   {
     name: "Chocolat'Inn",
@@ -95,6 +98,24 @@ const projectsArray = [
       en: "This project is simply the one of my portfolio that you currently are looking at, so it’s unnecessary to click on the link to access it.",
     },
     status: { fr: "En cours", en: "In progress" },
+  },
+  {
+    name: "Green Rent",
+    logo: greenRentLogo,
+    alt: "Green Rent Logo",
+    img: greenRent,
+    link: ``,
+    github: `https://github.com/Laynaria/Midnight-Hackathon`,
+    hashtags: "#React #JSX #Express #Tailwind #CSS #Javascript",
+    desc: {
+      fr: "Nous avions 48h pour coder un projet fullstack pour ce second hackathon dont le thème était un site de location de véhicule.",
+      en: "We had 48h to code a fullstack project for this second hackathon which theme was to make a vehicle rent website.",
+    },
+    descTwo: {
+      fr: "Nous avons gagné la première place dans notre cluster et sommes ainsi arrivé en finale, où il m'a fallu présenter le projet en anglais devant une audience internationale assez conséquente.",
+      en: "We won first place in our cluster and reached the final, where I had to present this project in english in front of a fairly substantial international audience.",
+    },
+    status: { fr: "Terminé", en: "Completed" },
   },
 ];
 
