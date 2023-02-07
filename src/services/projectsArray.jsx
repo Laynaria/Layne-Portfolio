@@ -16,6 +16,12 @@ import portfolioLayneLogo from "../assets/Laynevatar.png";
 import greenRent from "../assets/projectsPicture/GreenRent.png";
 import greenRentLogo from "../assets/projectsPicture/leaf.svg";
 
+import externatic from "../assets/projectsPicture/Externatic.png";
+import externaticLogo from "../assets/projectsPicture/ExternaticLogo.png";
+
+import veganWitchPot from "../assets/projectsPicture/VeganWitchPot.png";
+import veganWitchPotLogo from "../assets/projectsPicture/VeganWitchPotLogo.svg";
+
 const projectsArray = [
   {
     name: "Chocolat'Inn",
@@ -116,6 +122,42 @@ const projectsArray = [
       en: "We won first place in our cluster and reached the final, where I had to present this project in english in front of a fairly substantial international audience.",
     },
     status: { fr: "Terminé", en: "Completed" },
+  },
+  {
+    name: "Externatic",
+    logo: externaticLogo,
+    alt: "Externatic Logo",
+    img: externatic,
+    link: `https://externatic.remote-fr-2.wilders.dev/`,
+    github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Externatic`,
+    hashtags: "#React #JSX #Express #SASS #CSS #Javascript",
+    desc: {
+      fr: "",
+      en: "",
+    },
+    descTwo: {
+      fr: "",
+      en: "",
+    },
+    status: { fr: "Terminé", en: "Completed" },
+  },
+  {
+    name: "Vegan Witch Pot",
+    logo: veganWitchPotLogo,
+    alt: "Externatic Logo",
+    img: veganWitchPot,
+    link: ``,
+    github: `https://github.com/Laynaria/Vegan-Witch-Pot`,
+    hashtags: "#React #JSX #Express #SASS #CSS #Javascript",
+    desc: {
+      fr: "",
+      en: "",
+    },
+    descTwo: {
+      fr: "",
+      en: "",
+    },
+    status: { fr: "En cours", en: "In progress" },
   },
 ];
 
