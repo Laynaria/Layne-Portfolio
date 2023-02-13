@@ -112,7 +112,7 @@ const projectsArray = [
     img: greenRent,
     link: ``,
     github: `https://github.com/Laynaria/Midnight-Hackathon`,
-    hashtags: "#React #JSX #Express #Tailwind #CSS #Javascript",
+    hashtags: "#React #JSX #Express #Tailwind #CSS #Javascript #MYSQL",
     desc: {
       fr: "Nous avions 48h pour coder un projet fullstack pour ce second hackathon dont le thème était un site de location de véhicule.",
       en: "We had 48h to code a fullstack project for this second hackathon which theme was to make a vehicle rent website.",
@@ -130,7 +130,7 @@ const projectsArray = [
     img: externatic,
     link: `https://externatic.remote-fr-2.wilders.dev/`,
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Externatic`,
-    hashtags: "#React #JSX #Express #SASS #CSS #Javascript",
+    hashtags: "#React #JSX #Express #SASS #CSS #Javascript #MYSQL",
     desc: {
       fr: "Notre projet final de formation, en partenariat avec Externatic. Le but était de leur créer un P.O.C. pour leur plateforme de recrutement: Offres d'emploi, gestions des candidats, gestion des entreprises, authentification, etc.",
       en: "Our training final project, in partnership with Externatic. The goal was to create a P.O.C for their recruitment platform: Job offers, candidates management, societies management, authentification, etc.",
@@ -148,14 +148,14 @@ const projectsArray = [
     img: veganWitchPot,
     link: ``,
     github: `https://github.com/Laynaria/Vegan-Witch-Pot`,
-    hashtags: "#React #JSX #Express #SASS #CSS #Javascript",
+    hashtags: "#React #JSX #Express #SASS #CSS #Javascript #MYSQL",
     desc: {
-      fr: "",
-      en: "",
+      fr: "Mon projet de certification fullstack: un site de recettes vegan, avec composition de menu hebdomadaires et liste de courses.",
+      en: "My fullstack certification project: a vegan recipes website, with weekly menu composition and grocery list.",
     },
     descTwo: {
-      fr: "",
-      en: "",
+      fr: "À terme, il y aura aussi un système d'authentification et la possibilité de partager ses recettes avec validation admin.",
+      en: "Ultimately, there will be an authentification system and the possibility to share your reicipes with admin validation.",
     },
     status: { fr: "En cours", en: "In progress" },
   },
