@@ -132,12 +132,12 @@ const projectsArray = [
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Externatic`,
     hashtags: "#React #JSX #Express #SASS #CSS #Javascript",
     desc: {
-      fr: "",
-      en: "",
+      fr: "Notre projet final de formation, en partenariat avec Externatic. Le but était de leur créer un P.O.C. pour leur plateforme de recrutement: Offres d'emploi, gestions des candidats, gestion des entreprises, authentification, etc.",
+      en: "Our training final project, in partnership with Externatic. The goal was to create a P.O.C for their recruitment platform: Job offers, candidates management, societies management, authentification, etc.",
     },
     descTwo: {
-      fr: "",
-      en: "",
+      fr: "Point important : Ils souhaitaient rester au centre du processus de recrutement.",
+      en: "Important point: They wanted to remain at the center of the recruitment process.",
     },
     status: { fr: "Terminé", en: "Completed" },
   },
