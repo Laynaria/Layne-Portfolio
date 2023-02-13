@@ -4,7 +4,7 @@ import "./Welcome.scss";
 function Welcome({ language }) {
   return (
     <section className="Welcome">
-      <img src={avatar} id="avatar" alt="Avatar Portfolio" width="15%" />
+      <img src={avatar} id="avatar" alt="Avatar Portfolio" />
       <div id="WelcomeText">
         <h1>Christopher Raspail</h1>
         <h2>

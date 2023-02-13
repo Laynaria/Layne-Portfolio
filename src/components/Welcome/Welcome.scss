@@ -1,10 +1,28 @@
 .Welcome {
   margin: 3rem auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 2rem;
-}
 
-#WelcomeText {
-  text-align: left;
+  @media screen and (min-width: 920px) {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  img {
+    width: 50%;
+
+    @media screen and (min-width: 920px) {
+      width: 15%;
+    }
+  }
+
+  #WelcomeText {
+    text-align: center;
+
+    @media screen and (min-width: 920px) {
+      max-width: 70%;
+      text-align: left;
+    }
+  }
 }
