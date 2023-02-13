@@ -21,14 +21,15 @@
       font-family: $font-stack;
       border-radius: 1rem;
       border: 1px solid $primary-color;
+      width: 100%;
       transition: 500ms;
 
-      @media screen and (min-width: 1020px) {
-        width: 33%;
+      @media screen and (min-width: 920px) {
+        width: 45%;
       }
 
       @media screen and (min-width: 1200px) {
-        width: 25%;
+        width: 30%;
       }
 
       .titleCard,
