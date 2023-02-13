@@ -15,7 +15,11 @@ function Card({ language }) {
               <div className="Card">
                 {/* Title of Card */}
                 <h2 className="titleCard">
-                  <img src={project.logo} width="50px" alt={project.alt} />
+                  <img
+                    src={project.logo}
+                    alt={project.alt}
+                    className="logoCard"
+                  />
                   {project.name}
                   <span className="spanTitleCard">
                     <a
@@ -26,7 +30,6 @@ function Card({ language }) {
                       <img
                         src={siteIcon}
                         alt="Website External Link Icon"
-                        width="30px"
                         className={project.link === "" ? "unclickable" : ""}
                       />
                     </a>
@@ -38,7 +41,6 @@ function Card({ language }) {
                       <img
                         src={githubIcon}
                         alt="Github External Link Icon"
-                        width="30px"
                         className={project.github === "" ? "unclickable" : ""}
                       />
                     </a>
