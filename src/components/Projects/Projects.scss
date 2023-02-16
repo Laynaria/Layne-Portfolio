@@ -96,6 +96,10 @@
         display: flex;
         flex-direction: column;
 
+        img {
+          border-bottom: 1px solid white;
+        }
+
         .description {
           text-align: left;
           margin-bottom: 0;
@@ -136,7 +140,7 @@
     }
 
     .Card:hover {
-      background-color: rgb(45, 51, 102);
+      background-color: rgba(45, 51, 102, 0.75);
       transform: scale(1.1);
     }
   }
