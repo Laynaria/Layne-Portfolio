@@ -2,10 +2,49 @@
 
 #aboutSection {
   margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 
   h1 {
     font-size: 2rem;
     color: yellow;
     font-weight: bold;
+  }
+
+  #aboutBox {
+    background-color: $secondary-color-sixty-transparent;
+    font-family: $font-stack;
+    border-radius: 1rem;
+    border: 1px solid $primary-color;
+    width: 94%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    p {
+      text-align: left;
+    }
+
+    a {
+      width: 11rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.5rem;
+      border-radius: 10px;
+      border: 1px solid $primary-color;
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        color: yellow;
+      }
+    }
   }
 }
