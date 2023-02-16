@@ -7,7 +7,12 @@ function Footer() {
       <div id="footDecoration"></div>
       <div id="socialNetworks">
         {socialNetworks.map((network) => (
-          <a href={network.url} alt={network.name} target="_blank">
+          <a
+            href={network.url}
+            alt={network.name}
+            target="_blank"
+            key={network.id}
+          >
             <img src={network.img} alt={network.name} />
           </a>
         ))}

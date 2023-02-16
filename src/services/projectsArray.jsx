@@ -24,6 +24,7 @@ import veganWitchPotLogo from "../assets/projectsPicture/VeganWitchPotLogo.svg";
 
 const projectsArray = [
   {
+    id: 0,
     name: "Chocolat'Inn",
     logo: chocolatInnLogo,
     alt: "Chocolat'Inn Logo",
@@ -42,6 +43,7 @@ const projectsArray = [
     status: { fr: "Terminé", en: "Completed" },
   },
   {
+    id: 1,
     name: "Portfolio Aria",
     logo: portfolioAriaLogo,
     alt: "Portfolio Aria Logo",
@@ -56,6 +58,7 @@ const projectsArray = [
     status: { fr: "En cours", en: "In progress" },
   },
   {
+    id: 2,
     name: "Toasty Mood v1",
     logo: toastyMoodLogo,
     alt: "Toasty Mood Logo",
@@ -74,6 +77,7 @@ const projectsArray = [
     status: { fr: "Terminé", en: "Completed" },
   },
   {
+    id: 3,
     name: "Wizard Code School",
     logo: wizardCodeSchoolLogo,
     alt: "Wizard Code School Logo",
@@ -92,6 +96,7 @@ const projectsArray = [
     status: { fr: "Terminé", en: "Completed" },
   },
   {
+    id: 4,
     name: "Portfolio Layne",
     logo: portfolioLayneLogo,
     alt: "Portfolio Layne Logo",
@@ -106,6 +111,7 @@ const projectsArray = [
     status: { fr: "En cours", en: "In progress" },
   },
   {
+    id: 5,
     name: "Green Rent",
     logo: greenRentLogo,
     alt: "Green Rent Logo",
@@ -124,6 +130,7 @@ const projectsArray = [
     status: { fr: "Terminé", en: "Completed" },
   },
   {
+    id: 6,
     name: "Externatic",
     logo: externaticLogo,
     alt: "Externatic Logo",
@@ -142,6 +149,7 @@ const projectsArray = [
     status: { fr: "Terminé", en: "Completed" },
   },
   {
+    id: 7,
     name: "Vegan Witch Pot",
     logo: veganWitchPotLogo,
     alt: "Externatic Logo",

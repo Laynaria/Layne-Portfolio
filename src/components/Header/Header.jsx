@@ -30,16 +30,16 @@ function Header({ language, setLanguage }) {
 
   return (
     <header>
-      <label for="burger" className="burger">
+      <label htmlFor="burger" className="burger">
         <input id="burger" type="checkbox" onClick={burgerHandler} />
         <span></span>
         <span></span>
         <span></span>
       </label>
 
-      <label class="switch">
+      <label className="switch">
         <input type="checkbox" onClick={languageHandler} />
-        <span class="slider"></span>
+        <span className="slider"></span>
       </label>
       {/* Burger Open? Show Navigation else nothing*/}
       <nav className={isBurger ? "showNav" : "hideNav"}>
