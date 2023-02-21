@@ -33,7 +33,13 @@ function About({ language }) {
 
         {/* Selected experience informations. Depends of the exp state */}
         <p id="experienceParagraph">
-          {language === "fr" ? experiences[exp].desc : experiences[exp].descEN}
+          {language === "fr"
+            ? experiences[exp].desc.map((elem) => (
+                <span className="experienceParagraphSpan">{elem.span}</span>
+              ))
+            : experiences[exp].descEN.map((elem) => (
+                <span className="experienceParagraphSpan">{elem.span}</span>
+              ))}
           <a
             href={experiences[exp].url}
             target="_blank"
