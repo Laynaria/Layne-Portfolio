@@ -1,25 +1,28 @@
-import fbImg from "../assets/socialNetworks/Facebook.svg";
-import twitImg from "../assets/socialNetworks/Twitter.svg";
-import instaImg from "../assets/socialNetworks/Instagram.svg";
+import wildLogo from "../assets/experiences/WildCodeSchoolLogo.png";
+import laynariaLogo from "../assets/experiences/LaynariaLogo.png";
+import artchemistsLogo from "../assets/experiences/ARTchemistsLogo.jpg";
 
 const experiences = [
   {
     id: 0,
     name: "Wild Code School",
-    img: fbImg,
+    logo: wildLogo,
     url: "https://www.wildcodeschool.com/",
+    desc: "description wild code school",
   },
   {
     id: 1,
     name: "Laynaria",
-    img: twitImg,
+    logo: laynariaLogo,
     url: "https://laynaria.com/",
+    desc: "description laynaria",
   },
   {
     id: 2,
     name: "TheARTchemists",
-    img: instaImg,
+    logo: artchemistsLogo,
     url: "https://www.theartchemists.com/",
+    desc: "description theARTchemists",
   },
 ];
 

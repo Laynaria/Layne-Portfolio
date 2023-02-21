@@ -15,26 +15,39 @@ function About({ language }) {
         ) : (
           <p>Author and entrepreneur since 2017, </p>
         )}
-        {experiences.map((experience) => (
-          <button
-            type="button"
-            // onClick={setExp(experience.id)}
-            key={experience.id}
-          >
-            <img src={experience.img} alt={`${experience.name} logo`} />
-            {experience.name}
-          </button>
-        ))}
+
+        {/* We map the buttons for the experience slider, clicking on a 
+        button will change a state to show the selected experience informations */}
+        <div id="experienceMenu">
+          {experiences.map((experience) => (
+            <button
+              type="button"
+              onClick={() => setExp(experience.id)}
+              key={experience.id}
+            >
+              <img src={experience.logo} alt={`${experience.name} logo`} />
+              <span className="experienceTitle">{experience.name}</span>
+            </button>
+          ))}
+        </div>
+
+        {/* Selected experience informations. Depends of the exp state */}
         <p id="experienceParagraph">
-          {" "}
-          <a href={experiences[exp].url} alt={`${experiences[exp].name} link`}>
+          {experiences[exp].desc}
+          <a
+            href={experiences[exp].url}
+            target="_blank"
+            alt={`${experiences[exp].name} link`}
+          >
             <img
-              src={experiences[exp].img}
+              src={experiences[exp].logo}
               alt={`${experiences[exp].name} logo`}
             />
             {experiences[exp].name}
           </a>
         </p>
+
+        <p>mes Stacks</p>
       </div>
     </section>
   );

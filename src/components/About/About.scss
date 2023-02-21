@@ -19,26 +19,48 @@
     border-radius: 1rem;
     border: 1px solid $primary-color;
     display: flex;
+    justify-content: center;
     width: 88%;
     padding: 1rem;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
 
     @media screen and (min-width: 720px) {
       width: 92%;
       padding: 1rem 2rem;
+      justify-content: flex-start;
     }
 
     p {
       text-align: left;
+      width: 100%;
+
+      @media screen and (min-width: 720px) {
+        &:nth-of-type(2) {
+          width: auto;
+          margin-left: 1rem;
+        }
+      }
     }
 
-    a {
-      width: 11rem;
+    #experienceMenu {
+      display: flex;
+      gap: 1rem;
+
+      @media screen and (min-width: 720px) {
+        flex-direction: column;
+      }
+    }
+
+    a,
+    button {
+      box-sizing: content-box;
+      font-size: 1rem;
+      width: fit-content;
+      background-color: transparent;
       display: flex;
       align-items: center;
-      justify-content: center;
+      //   justify-content: center;
       gap: 0.5rem;
       padding: 0.5rem;
       border-radius: 10px;
@@ -50,8 +72,20 @@
         color: yellow;
       }
 
-      &:last-of-type {
-        margin-bottom: 1rem;
+      img {
+        height: 24px;
+      }
+
+      @media screen and (min-width: 720px) {
+        width: 11rem;
+      }
+
+      .experienceTitle {
+        display: none;
+
+        @media screen and (min-width: 720px) {
+          display: block;
+        }
       }
     }
   }
