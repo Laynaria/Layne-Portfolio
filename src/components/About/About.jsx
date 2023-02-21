@@ -33,7 +33,7 @@ function About({ language }) {
 
         {/* Selected experience informations. Depends of the exp state */}
         <p id="experienceParagraph">
-          {experiences[exp].desc}
+          {language === "fr" ? experiences[exp].desc : experiences[exp].descEN}
           <a
             href={experiences[exp].url}
             target="_blank"
