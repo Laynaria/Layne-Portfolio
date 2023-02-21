@@ -35,10 +35,14 @@ function About({ language }) {
         <p id="experienceParagraph">
           {language === "fr"
             ? experiences[exp].desc.map((elem) => (
-                <span className="experienceParagraphSpan">{elem.span}</span>
+                <span className="experienceParagraphSpan" key={elem.id}>
+                  {elem.span}
+                </span>
               ))
             : experiences[exp].descEN.map((elem) => (
-                <span className="experienceParagraphSpan">{elem.span}</span>
+                <span className="experienceParagraphSpan" key={elem.id}>
+                  {elem.span}
+                </span>
               ))}
           <a
             href={experiences[exp].url}
