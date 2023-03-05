@@ -11,9 +11,16 @@ function About({ language }) {
 
       <div id="aboutBox">
         {language === "fr" ? (
-          <p>Auteur et entrepreneur depuis 2017, </p>
+          <p>
+            Scénariste et entrepreneur depuis 2017, j'ai décidé de me
+            reconvertir dans une autre de mes passions en fin 2022: le
+            Développement Web.
+          </p>
         ) : (
-          <p>Author and entrepreneur since 2017, </p>
+          <p>
+            Scenarist and entrepreneur since 2017, I chose to reconvert myself
+            into another of my passion in late 2022: Web development.
+          </p>
         )}
 
         {/* We map the buttons for the experience slider, clicking on a 
@@ -33,6 +40,10 @@ function About({ language }) {
 
         {/* Selected experience informations. Depends of the exp state */}
         <p id="experienceParagraph">
+          <span
+            className="experienceDecorationSpan"
+            style={{ backgroundImage: `url(${experiences[exp].banner})` }}
+          ></span>
           {language === "fr"
             ? experiences[exp].desc.map((elem) => (
                 <span className="experienceParagraphSpan" key={elem.id}>
