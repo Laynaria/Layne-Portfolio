@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Stacks from "../Stacks/Stacks";
 import experiences from "../../services/experiences";
 
 import "./About.scss";
@@ -67,7 +68,7 @@ function About({ language }) {
           </a>
         </p>
 
-        <p>mes Stacks</p>
+        <Stacks language={language} />
       </div>
     </section>
   );

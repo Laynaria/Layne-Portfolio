@@ -41,8 +41,14 @@ const experiences = [
     logo: laynariaLogo,
     banner: laynariaBanner,
     url: "https://laynaria.com/",
-    desc: [{ id: 0, span: "fr description laynaria" }],
-    descEN: [{ id: 0, span: "en description laynaria" }],
+    desc: [
+      { id: 0, span: "fr" },
+      { id: 1, span: "b" },
+    ],
+    descEN: [
+      { id: 0, span: "en" },
+      { id: 1, span: "b" },
+    ],
   },
   {
     id: 2,
