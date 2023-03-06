@@ -12,14 +12,13 @@ function About({ language }) {
       <div id="aboutBox">
         {language === "fr" ? (
           <p>
-            Scénariste et entrepreneur depuis 2017, j'ai décidé de me
-            reconvertir dans une autre de mes passions en fin 2022: le
-            Développement Web.
+            Scénariste et entrepreneur depuis 2017, en fin 2022 j'ai décidé de
+            me reconvertir dans une autre de mes passions: le Développement Web.
           </p>
         ) : (
           <p>
-            Scenarist and entrepreneur since 2017, I chose to reconvert myself
-            into another of my passion in late 2022: Web development.
+            Scenarist and entrepreneur since 2017, in late 2022 I chose to
+            reconvert myself into another of my passion: Web development.
           </p>
         )}
 

@@ -17,21 +17,21 @@ const experiences = [
     desc: [
       {
         id: 0,
-        span: "fr description wild code school is a school that schools like a school for schooling until i can do anything else that school for schooling the school of super duper school forever and ever i will never be able to school that school out of school man brave yourselves schools are coming and they will school you forever but i hope you'll be okay with that cause i'm not",
+        span: "La Wild Code School est un organisme qui propose des formations intensives aux divers métiers Web. J’y ai suivi une formation intensive de Developpeur Web et Web Mobile FullStack de 5 mois (Parcours Javascript) entre septembre 2022 et février 2023.",
       },
       {
         id: 1,
-        span: "second paragraphe",
-      },
-      {
-        id: 2,
-        span: "troisième paragraphe",
+        span: "Tout au long de la formation, j’ai été lead développeur de tous les projets principaux (hors hackathons) auxquels j’ai participé. Nous avons utilisé la méthodologie Agile Scrum afin de gérer tous nos projets.",
       },
     ],
     descEN: [
       {
         id: 0,
-        span: "en description wild code school is a school that schools like a school for schooling until i can do anything else that school for schooling the school of super duper school forever and ever i will never be able to school that school out of school man brave yourselves schools are coming and they will school you forever but i hope you'll be okay with that cause i'm not",
+        span: "The Wild Code School is an organization which propose intensives training to the various professions of the web. I followed the FullStack Web Developeur and Web Mobile (Javascript Course) training there between September 2022 and February 2023.",
+      },
+      {
+        id: 1,
+        span: "Throughout the training, I was lead developer of all the main projects I participated in it (except hackathons). To manage all our projects, we used the Agile Scrum methodology.",
       },
     ],
   },
