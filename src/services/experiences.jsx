@@ -50,8 +50,26 @@ const experiences = [
     logo: artchemistsLogo,
     banner: artchemistsBanner,
     url: "https://www.theartchemists.com/",
-    desc: [{ id: 0, span: "fr description theARTchemists" }],
-    descEN: [{ id: 0, span: "en description theARTchemists" }],
+    desc: [
+      {
+        id: 0,
+        span: "TheARTchemists est un web-magazine culturel spécialisé dans la découverte de tous types de talents artistiques et d’expérimentations plus ou moins avant-gardiste. J’ai été rédacteur de ma propre chronique pendant un peu plus de deux ans au sein de cette plateforme.",
+      },
+      {
+        id: 1,
+        span: "Mes tâches dans cette aventure étaient multiples : Gérer ma section, rechercher des sujets, préparer des interviews et mettre en place mes articles, ainsi que de participer aux réunions de Rédaction. ",
+      },
+    ],
+    descEN: [
+      {
+        id: 0,
+        span: "TheARTchesmists is a culture web-magazine specialized in discovering any new type of artistic talents and experimentations of a more or less avant-garde style. I was a writer of my own chronic for a bit more than two years on this platform.",
+      },
+      {
+        id: 1,
+        span: "I had numerous tasks in this adventure: manage my own section, research subjects, prepare interviews and set up my articles, along with participate in Editorial Meetings.",
+      },
+    ],
   },
 ];
 
