@@ -5,10 +5,14 @@ header {
   background-color: $secondary-color-quarter-transparent;
   z-index: 5;
 
-  animation: loadingHeader 2s ease;
+  animation: loadingHeader 3s ease;
 
   @keyframes loadingHeader {
     0% {
+      opacity: 0;
+    }
+
+    50% {
       opacity: 0;
     }
 

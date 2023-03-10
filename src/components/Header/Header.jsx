@@ -5,18 +5,34 @@ function Header({ language, setLanguage }) {
   // Burger State and function to change icon when clicking
   const [isBurger, setIsBurger] = useState(false);
 
+  // isLoading is here to make burger menu unclickable until most the animations are loaded
+  const [isLoading, setIsLoading] = useState(true);
+
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 2000);
+
   const languageHandler = () => {
     language === "fr" ? setLanguage("en") : setLanguage("fr");
   };
 
   const burgerHandler = () => {
-    setIsBurger(!isBurger);
+    if (!isLoading) {
+      setIsBurger(!isBurger);
+    }
   };
 
   // ScrolltoTop Function when clicking on Logo
   const scrollToTop = () => {
     const body = document.querySelector("body");
     body.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const scrollToAbout = () => {
+    const aboutSection = document.querySelector("#aboutSection");
+    aboutSection.scrollIntoView({
       behavior: "smooth",
     });
   };
@@ -31,7 +47,11 @@ function Header({ language, setLanguage }) {
   return (
     <header>
       <label htmlFor="burger" className="burger">
-        <input id="burger" type="checkbox" onClick={burgerHandler} />
+        {isLoading ? (
+          ""
+        ) : (
+          <input id="burger" type="checkbox" onClick={burgerHandler} />
+        )}
         <span></span>
         <span></span>
         <span></span>
@@ -45,6 +65,9 @@ function Header({ language, setLanguage }) {
       <nav className={isBurger ? "showNav" : "hideNav"}>
         <ul>
           <li onClick={scrollToTop}>Home</li>
+          <li onClick={scrollToAbout}>
+            {language === "fr" ? "À propos" : "About Me"}
+          </li>
           <li onClick={scrollToProjects}>
             {language === "fr" ? "Projets" : "Projects"}
           </li>
