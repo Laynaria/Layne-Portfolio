@@ -11,6 +11,19 @@
 
   img {
     width: 250px;
+    animation: loadingAvatar 2s ease;
+
+    @keyframes loadingAvatar {
+      0% {
+        opacity: 0;
+        transform: translateX(-100%) rotate(-45deg);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0%);
+      }
+    }
 
     @media screen and (min-width: 920px) {
       width: 275px;
@@ -23,6 +36,26 @@
     @media screen and (min-width: 920px) {
       max-width: 70%;
       text-align: left;
+    }
+
+    h1 {
+      animation: loadingWelcomeText 1.25s ease;
+    }
+
+    h2 {
+      animation: loadingWelcomeText 2s ease;
+    }
+
+    @keyframes loadingWelcomeText {
+      0% {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
     }
   }
 }
