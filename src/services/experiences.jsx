@@ -42,12 +42,24 @@ const experiences = [
     banner: laynariaBanner,
     url: "https://laynaria.com/",
     desc: [
-      { id: 0, span: "fr" },
-      { id: 1, span: "b" },
+      {
+        id: 0,
+        span: "Laynaria est un projet créé et réalisé en duo. On y retrouve toutes nos créations : Bande Dessinées, Illustrations, Timelapses, etc…",
+      },
+      {
+        id: 1,
+        span: "Nous avons lancé ce projet en septembre 2017, et je m’occupe de tout ce qui n’est pas illustration : scénarii, traductions, mise en ligne des contenus, gestion du wordpress, des boutiques, du tipeee et des réseaux sociaux.",
+      },
     ],
     descEN: [
-      { id: 0, span: "en" },
-      { id: 1, span: "b" },
+      {
+        id: 0,
+        span: "Laynaria is a project created and realized in duo. It includes all our creations: Comics, Illustrations, Timelapses, etc…",
+      },
+      {
+        id: 1,
+        span: "We launched this project in September 2017, and I work on everything which isn’t illustration: scenario, translations, contents publications, managing wordpress, shops, tipeee and social networks.",
+      },
     ],
   },
   {

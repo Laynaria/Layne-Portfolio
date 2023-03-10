@@ -58,7 +58,7 @@ function Header({ language, setLanguage }) {
       </label>
 
       <label className="switch">
-        <input type="checkbox" onClick={languageHandler} />
+        {isLoading ? "" : <input type="checkbox" onClick={languageHandler} />}
         <span className="slider"></span>
       </label>
       {/* Burger Open? Show Navigation else nothing*/}
