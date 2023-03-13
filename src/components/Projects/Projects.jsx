@@ -1,17 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import projectsArray from "../../services/projectsArray";
 import siteIcon from "../../assets/projectsPicture/siteIcon.svg";
 import githubIcon from "../../assets/projectsPicture/githubIcon.svg";
 import "./Projects.scss";
 
 function Card({ language }) {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+  }, []);
+
   return (
     <section id="projectsSection">
       <h1>{language === "fr" ? "Projets" : "Projects"}</h1>
       <div id="projectsCards">
         {projectsArray
           .map((project) => (
-            <div className="Card" key={project.id}>
+            <div className="Card hidden" key={project.id}>
               {/* Title of Card */}
               <h2 className="titleCard">
                 <img
