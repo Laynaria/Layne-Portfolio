@@ -6,6 +6,19 @@ import "./About.scss";
 
 function About({ language, isTransitionning }) {
   const [exp, setExp] = useState(0);
+  const [currentButton, setCurrentButton] = useState(0);
+  const [isSliderChanging, setIssliderChanging] = useState(false);
+
+  const sliderHandler = (id) => {
+    if (exp !== id) {
+      setCurrentButton(id);
+      setIssliderChanging(true);
+      setTimeout(() => {
+        setExp(id);
+        setIssliderChanging(false);
+      }, 500);
+    }
+  };
   return (
     <section
       id="aboutSection"
@@ -32,8 +45,9 @@ function About({ language, isTransitionning }) {
           {experiences.map((experience) => (
             <button
               type="button"
-              onClick={() => setExp(experience.id)}
+              onClick={() => sliderHandler(experience.id)}
               key={experience.id}
+              className={experience.id === currentButton ? "currentSlide" : ""}
             >
               <img src={experience.logo} alt={`${experience.name} logo`} />
               <span className="experienceTitle">{experience.name}</span>
@@ -42,7 +56,10 @@ function About({ language, isTransitionning }) {
         </div>
 
         {/* Selected experience informations. Depends of the exp state */}
-        <p id="experienceParagraph">
+        <p
+          id="experienceParagraph"
+          className={isSliderChanging ? "languageTransition" : ""}
+        >
           <span
             className="experienceDecorationSpan"
             style={{ backgroundImage: `url(${experiences[exp].banner})` }}

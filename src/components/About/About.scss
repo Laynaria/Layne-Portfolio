@@ -89,6 +89,10 @@
       @media screen and (min-width: 920px) {
         flex-direction: column;
       }
+
+      .currentSlide {
+        background-color: rgba(45, 51, 102, 0.75);
+      }
     }
 
     a {
@@ -108,13 +112,13 @@
       background-color: transparent;
       display: flex;
       align-items: center;
-      //   justify-content: center;
       gap: 0.5rem;
       padding: 0.5rem;
       border-radius: 10px;
       border: 1px solid $primary-color;
       text-decoration: none;
       color: white;
+      transition: all 0.5s;
 
       &:hover {
         color: yellow;

@@ -50,7 +50,7 @@ const projectsArray = [
     img: portfolioAria,
     link: `https://aria-portfolio.netlify.app/`,
     github: `https://github.com/Laynaria/Aria-Portfolio`,
-    hashtags: "#React #JSX #CSS #Javascript",
+    hashtags: "#React #JSX #Node #CSS #Javascript",
     desc: {
       fr: "Aria est une illustratrice et une touche-à-tout des métiers graphiques. Elle m'a sollicité afin de lui réaliser un portfolio graphique avec des animations, notamment celui d'un fil qui se dessine lorsque la page défile.",
       en: "Aria is an illustrator and a jack-of-all-trades of graphic professions. She asked me to create her portfolio with animations, particularly the one of a thread which draw itself when the page scrolls.",
@@ -65,7 +65,7 @@ const projectsArray = [
     img: toastyMood,
     link: `https://toasty-mood.netlify.app/`,
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P2-Team-Eagle`,
-    hashtags: "#React #JSX #CSS #API #Javascript #Scrum",
+    hashtags: "#React #JSX #Node #CSS #API #Javascript #Scrum",
     desc: {
       fr: "Toasty Mood est un projet d'application lifestyle de journal intime combiné avec une API de météo.",
       en: "Toasty Mood is a lifestyle application project of a diary combined with a weather forecast API.",
@@ -84,7 +84,7 @@ const projectsArray = [
     img: wizardCodeSchool,
     link: `https://wizard-code-school.netlify.app/`,
     github: `https://github.com/vassili45/Hackathon-1`,
-    hashtags: "#React #JSX #CSS #Javascript",
+    hashtags: "#React #JSX #Node #CSS #Javascript",
     desc: {
       fr: "Moins de 30 heures pour coder un projet en rapport avec le thème du voyage pour un Hackathon de la Wild Code School?",
       en: "Less than 30 hours to code a project in relation with the traveling theme for a Wild Code School Hackathon?",
@@ -103,7 +103,7 @@ const projectsArray = [
     img: portfolioLayne,
     link: ``,
     github: `https://github.com/Laynaria/Layne-Portfolio`,
-    hashtags: "#React #JSX #SASS #CSS #Javascript",
+    hashtags: "#React #JSX #Node #SASS #CSS #Javascript",
     desc: {
       fr: "Ce projet est tout simplement celui de mon portfolio que vous avez actuellement sous les yeux, il n'est donc pas nécessaire de cliquer sur le lien pour y accéder.",
       en: "This project is simply the one of my portfolio that you currently are looking at, so it’s unnecessary to click on the link to access it.",
@@ -118,7 +118,7 @@ const projectsArray = [
     img: greenRent,
     link: ``,
     github: `https://github.com/Laynaria/Midnight-Hackathon`,
-    hashtags: "#React #JSX #Express #Tailwind #CSS #Javascript #MYSQL",
+    hashtags: "#React #JSX #Express #Node #Tailwind #CSS #Javascript #MYSQL",
     desc: {
       fr: "Nous avions 48h pour coder un projet fullstack pour ce second hackathon dont le thème était un site de location de véhicule.",
       en: "We had 48h to code a fullstack project for this second hackathon which theme was to make a vehicle rent website.",
@@ -137,7 +137,7 @@ const projectsArray = [
     img: externatic,
     link: `https://externatic.remote-fr-2.wilders.dev/`,
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Externatic`,
-    hashtags: "#React #JSX #Express #SASS #CSS #Javascript #MYSQL",
+    hashtags: "#React #JSX #Express #Node #SASS #CSS #Javascript #MYSQL",
     desc: {
       fr: "Notre projet final de formation, en partenariat avec Externatic. Le but était de leur créer un P.O.C. pour leur plateforme de recrutement: Offres d'emploi, gestions des candidats, gestion des entreprises, authentification, etc.",
       en: "Our training final project, in partnership with Externatic. The goal was to create a P.O.C for their recruitment platform: Job offers, candidates management, societies management, authentification, etc.",
@@ -156,7 +156,7 @@ const projectsArray = [
     img: veganWitchPot,
     link: ``,
     github: `https://github.com/Laynaria/Vegan-Witch-Pot`,
-    hashtags: "#React #JSX #Express #SASS #CSS #Javascript #MYSQL",
+    hashtags: "#React #JSX #Express #Node #SASS #CSS #Javascript #MYSQL",
     desc: {
       fr: "Mon projet de certification fullstack: un site de recettes vegan, avec composition de menu hebdomadaires et liste de courses.",
       en: "My fullstack certification project: a vegan recipes website, with weekly menu composition and grocery list.",
