@@ -19,12 +19,31 @@
       margin: 3rem 0;
     }
 
+    @keyframes cardAnimation {
+      // 0% {
+      //   -webkit-transform: perspective(400px);
+      //   transform: perspective(400px);
+      // }
+      // 30% {
+      //   opacity: 1;
+      //   -webkit-transform: perspective(400px) rotateX(-20deg);
+      //   transform: perspective(400px) rotateX(-20deg);
+      // }
+      // to {
+      //   opacity: 0;
+      //   -webkit-transform: perspective(400px) rotateX(90deg);
+      //   transform: perspective(400px) rotateX(90deg);
+      // }
+    }
+
     .hidden {
       opacity: 0;
+      transform: translate3d(0, -100px, 0) rotateX(90deg);
     }
 
     .show {
       opacity: 1;
+      transform: translate3d(0, 0px, 0);
     }
 
     .Card {
