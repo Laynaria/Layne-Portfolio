@@ -4,10 +4,13 @@ import experiences from "../../services/experiences";
 
 import "./About.scss";
 
-function About({ language }) {
+function About({ language, isTransitionning }) {
   const [exp, setExp] = useState(0);
   return (
-    <section id="aboutSection">
+    <section
+      id="aboutSection"
+      className={isTransitionning ? "languageTransition" : ""}
+    >
       <h1>{language === "fr" ? "À propos" : "About Me"}</h1>
 
       <div id="aboutBox">

@@ -1,7 +1,12 @@
 import { useState } from "react";
 import "./Header.scss";
 
-function Header({ language, setLanguage }) {
+function Header({
+  language,
+  setLanguage,
+  isTransitionning,
+  setIsTransitionning,
+}) {
   // Burger State and function to change icon when clicking
   const [isBurger, setIsBurger] = useState(false);
 
@@ -13,7 +18,11 @@ function Header({ language, setLanguage }) {
   }, 2000);
 
   const languageHandler = () => {
-    language === "fr" ? setLanguage("en") : setLanguage("fr");
+    setIsTransitionning(true);
+    setTimeout(() => {
+      language === "fr" ? setLanguage("en") : setLanguage("fr");
+      setIsTransitionning(false);
+    }, 500);
   };
 
   const burgerHandler = () => {
@@ -63,7 +72,7 @@ function Header({ language, setLanguage }) {
       </label>
       {/* Burger Open? Show Navigation else nothing*/}
       <nav className={isBurger ? "showNav" : "hideNav"}>
-        <ul>
+        <ul className={isTransitionning ? "languageTransition" : ""}>
           <li onClick={scrollToTop}>Home</li>
           <li onClick={scrollToAbout}>
             {language === "fr" ? "À propos" : "About Me"}

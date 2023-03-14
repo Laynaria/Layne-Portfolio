@@ -10,14 +10,20 @@ import "./App.scss";
 
 function App() {
   const [language, setLanguage] = useState("fr");
+  const [isTransitionning, setIsTransitionning] = useState(false);
 
   return (
     <div className="App">
       <BackgroundAnimation />
-      <Header language={language} setLanguage={setLanguage} />
-      <Welcome language={language} />
-      <About language={language} />
-      <Projects language={language} />
+      <Header
+        language={language}
+        setLanguage={setLanguage}
+        isTransitionning={isTransitionning}
+        setIsTransitionning={setIsTransitionning}
+      />
+      <Welcome language={language} isTransitionning={isTransitionning} />
+      <About language={language} isTransitionning={isTransitionning} />
+      <Projects language={language} isTransitionning={isTransitionning} />
       <Footer />
     </div>
   );

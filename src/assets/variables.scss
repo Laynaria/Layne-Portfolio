@@ -9,3 +9,16 @@ $secondary-color: #242424;
 
 $secondary-color-quarter-transparent: #242424b7;
 $secondary-color-sixty-transparent: #242424ab;
+
+.languageTransition {
+  opacity: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+section,
+ul {
+  transition: opacity 0.5s;
+}

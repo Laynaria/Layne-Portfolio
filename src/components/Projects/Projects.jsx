@@ -4,7 +4,7 @@ import siteIcon from "../../assets/projectsPicture/siteIcon.svg";
 import githubIcon from "../../assets/projectsPicture/githubIcon.svg";
 import "./Projects.scss";
 
-function Card({ language }) {
+function Card({ language, isTransitionning }) {
   // UseEffect used for checking which cards are displayed based on scroll
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -22,7 +22,10 @@ function Card({ language }) {
   }, []);
 
   return (
-    <section id="projectsSection">
+    <section
+      id="projectsSection"
+      className={isTransitionning ? "languageTransition" : ""}
+    >
       <h1>{language === "fr" ? "Projets" : "Projects"}</h1>
       <div id="projectsCards">
         {projectsArray
