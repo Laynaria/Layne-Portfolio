@@ -5,10 +5,10 @@ import githubIcon from "../../assets/projectsPicture/githubIcon.svg";
 import "./Projects.scss";
 
 function Card({ language }) {
+  // UseEffect used for checking which cards are displayed based on scroll
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        console.log(entry);
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
         } else {
