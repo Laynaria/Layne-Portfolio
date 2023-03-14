@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div id="footDecoration"></div>
-      <div id="socialNetworks">
+      <div id="socialNetworkss">
         {socialNetworks.map((network) => (
           <a
             href={network.url}
