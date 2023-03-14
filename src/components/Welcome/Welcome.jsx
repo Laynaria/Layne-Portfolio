@@ -9,8 +9,8 @@ function Welcome({ language }) {
         <h1>Christopher Raspail</h1>
         <h2>
           {language === "fr"
-            ? "Developpeur Web, Programmeur, Scénariste, Auteur, Créateur de Contenu"
-            : "Web Developper, Programmer, Scenarist, Author, Content Creator"}
+            ? "Developpeur Web FullStack, Scénariste, Auteur, Créateur de Contenu"
+            : "Web Developper FullStack, Scenarist, Author, Content Creator"}
         </h2>
       </div>
     </section>
