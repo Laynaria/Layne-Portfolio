@@ -103,7 +103,7 @@ const projectsArray = [
     img: portfolioLayne,
     link: ``,
     github: `https://github.com/Laynaria/Layne-Portfolio`,
-    hashtags: "#React #JSX #Node #SASS #CSS #Javascript",
+    hashtags: "#React #JSX #Node #SCSS #CSS #Javascript",
     desc: {
       fr: "Ce projet est tout simplement celui de mon portfolio que vous avez actuellement sous les yeux, il n'est donc pas nécessaire de cliquer sur le lien pour y accéder.",
       en: "This project is simply the one of my portfolio that you currently are looking at, so it’s unnecessary to click on the link to access it.",
@@ -137,7 +137,7 @@ const projectsArray = [
     img: externatic,
     link: `https://externatic.remote-fr-2.wilders.dev/`,
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Externatic`,
-    hashtags: "#React #JSX #Express #Node #SASS #CSS #Javascript #MYSQL",
+    hashtags: "#React #JSX #Express #Node #SCSS #CSS #Javascript #MYSQL",
     desc: {
       fr: "Notre projet final de formation, en partenariat avec Externatic. Le but était de leur créer un P.O.C. pour leur plateforme de recrutement: Offres d'emploi, gestions des candidats, gestion des entreprises, authentification, etc.",
       en: "Our training final project, in partnership with Externatic. The goal was to create a P.O.C for their recruitment platform: Job offers, candidates management, societies management, authentification, etc.",
@@ -156,7 +156,7 @@ const projectsArray = [
     img: veganWitchPot,
     link: ``,
     github: `https://github.com/Laynaria/Vegan-Witch-Pot`,
-    hashtags: "#React #JSX #Express #Node #SASS #CSS #Javascript #MYSQL",
+    hashtags: "#React #JSX #Express #Node #SCSS #CSS #Javascript #MYSQL",
     desc: {
       fr: "Mon projet de certification fullstack: un site de recettes vegan, avec composition de menu hebdomadaires et liste de courses.",
       en: "My fullstack certification project: a vegan recipes website, with weekly menu composition and grocery list.",
