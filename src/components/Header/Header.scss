@@ -198,6 +198,7 @@ header {
         )
         1 100%;
     }
+
     ul {
       padding: 0;
       list-style: none;
@@ -205,6 +206,7 @@ header {
         padding-bottom: 3rem;
         &:hover {
           filter: brightness(170%) drop-shadow(0 0 0.1rem yellow);
+          cursor: pointer;
         }
       }
     }
