@@ -10,8 +10,16 @@ import sassLogo from "../assets/tools/sass.svg";
 import tailwindLogo from "../assets/tools/tailwind.svg";
 
 import nodeLogo from "../assets/tools/node.svg";
-import mysqlLogo from "../assets/tools/mysql.svg";
+import expressLogo from "../assets/tools/express.svg";
 import apirestLogo from "../assets/tools/apirest.svg";
+import sqlLogo from "../assets/tools/sql.svg";
+import mysqlLogo from "../assets/tools/mysql.svg";
+import sqliteLogo from "../assets/tools/sqlite.svg";
+import postgreLogo from "../assets/tools/postgre.svg";
+import typeormLogo from "../assets/tools/typeorm.svg";
+import graphqlLogo from "../assets/tools/graphql.svg";
+import typegraphqlLogo from "../assets/tools/typegraphql.svg";
+import apollographqlLogo from "../assets/tools/apollo.svg";
 
 import figmaLogo from "../assets/tools/figma.svg";
 import gitLogo from "../assets/tools/git.svg";
@@ -49,9 +57,16 @@ const stacksArray = [
     titleEN: "Backend",
     languages: [
       { id: 0, name: "Node", img: nodeLogo },
-      { id: 1, name: "Express", img: nodeLogo },
+      { id: 1, name: "SQL", img: sqlLogo },
       { id: 2, name: "MySQL", img: mysqlLogo },
-      { id: 3, name: "API REST", img: apirestLogo },
+      { id: 3, name: "SQLite", img: sqliteLogo },
+      { id: 4, name: "PostgreSQL", img: postgreLogo },
+      { id: 5, name: "TypeORM", img: typeormLogo },
+      { id: 6, name: "Express", img: expressLogo },
+      { id: 7, name: "API REST", img: apirestLogo },
+      { id: 8, name: "Api GraphQL", img: graphqlLogo },
+      { id: 9, name: "Type GraphQL", img: typegraphqlLogo },
+      { id: 10, name: "Apollo GraphQL", img: apollographqlLogo },
     ],
   },
   {

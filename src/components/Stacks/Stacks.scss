@@ -21,7 +21,13 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 0 1rem;
-    flex: 1 1 25%;
+    margin-bottom: auto;
+    width: 95%;
+
+    @media screen and (min-width: 1280px) {
+      width: auto;
+      flex: 1 1 25%;
+    }
 
     h3 {
       padding-bottom: 0.5rem;
