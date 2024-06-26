@@ -17,21 +17,21 @@ const experiences = [
     desc: [
       {
         id: 0,
-        span: "La Wild Code School est un organisme qui propose des formations intensives aux divers métiers Web. J’y ai suivi une formation intensive de Developpeur Web et Web Mobile FullStack de 5 mois (Parcours Javascript) entre septembre 2022 et février 2023.",
+        span: "La Wild Code School est un organisme qui propose des formations intensives aux divers métiers Web. Actuellement Teaching Assistant, j'enseigne et accompe mes élèves dans leur montée en compétences sur des formations intensives de 5 mois, à l'issue desquelles ils peuvent prétendre à une certification Bac + 2.",
       },
       {
         id: 1,
-        span: "Tout au long de la formation, j’ai été lead développeur de tous les projets principaux (hors hackathons) auxquels j’ai participé. Nous avons utilisé la méthodologie Agile Scrum afin de gérer tous nos projets.",
+        span: "Mon poste étant en Alternance, je monte de plus en compétences en tant que Concepteur Développeur d'Application, sur diverses technologies dont une partie DevOPS, et réaliserait un passage de titre Bac + 3 en septembre 2024.",
       },
     ],
     descEN: [
       {
         id: 0,
-        span: "The Wild Code School is an organization which propose intensives training to the various professions of the web. I followed the FullStack Web Developeur and Web Mobile (Javascript Course) training there between September 2022 and February 2023.",
+        span: "The Wild Code School is an organization which propose intensives training to the various professions of the web. I'm currently working there as a Teaching Assistant, where I assist my students in their skills development through 5 months of intensive trainings, after which they may qualify for a Diploma of Higher Education (Bac + 2).",
       },
       {
         id: 1,
-        span: "Throughout the training, I was lead developer of all the main projects I participated in it (except hackathons). To manage all our projects, we used the Agile Scrum methodology.",
+        span: "My work being an apprenticeship, I'm also developing my skills as an Application Designer and Developer, on multiple technologies with a portion of DevOPS, and will pass my Bachelor (Bac + 3) in september 2024.",
       },
     ],
   },
