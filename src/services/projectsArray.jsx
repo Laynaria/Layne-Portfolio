@@ -22,6 +22,9 @@ import externaticLogo from "../assets/projectsPicture/ExternaticLogo.png";
 import veganWitchPot from "../assets/projectsPicture/VeganWitchPot.png";
 import veganWitchPotLogo from "../assets/projectsPicture/VeganWitchPotLogo.svg";
 
+import greenStep from "../assets/projectsPicture/GreenStep.png";
+import greenStepLogo from "../assets/projectsPicture/GreenStepLogo.png";
+
 const projectsArray = [
   {
     id: 0,
@@ -135,7 +138,7 @@ const projectsArray = [
     logo: externaticLogo,
     alt: "Externatic Logo",
     img: externatic,
-    link: `https://externatic.remote-fr-2.wilders.dev/`,
+    link: ``,
     github: `https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Externatic`,
     hashtags: "#React #JSX #Express #Node #SCSS #CSS #Javascript #MYSQL",
     desc: {
@@ -162,8 +165,28 @@ const projectsArray = [
       en: "My fullstack certification project: a vegan recipes website, with weekly menu composition and grocery list.",
     },
     descTwo: {
-      fr: "À terme, il y aura aussi un système d'authentification et la possibilité de partager ses recettes avec validation admin.",
-      en: "Ultimately, there will be an authentification system and the possibility to share your reicipes with admin validation.",
+      fr: "Il ne me reste plus qu'à développer une partie du panneau d'administration ainsi que la possibilité de créer des Menu Hebdomadaires.",
+      en: "I only have to develop some part of the admin pannel and the possibility to create some Weekly Menu.",
+    },
+    status: { fr: "En cours", en: "In progress" },
+  },
+  {
+    id: 8,
+    name: "Green Step",
+    logo: greenStepLogo,
+    alt: "Externatic Logo",
+    img: greenStep,
+    link: `https://green-step.0923-blanc-3.wns.wilders.dev/`,
+    github: `https://github.com/WildCodeSchool/2023-09-wns-blanc-green-step`,
+    hashtags:
+      "#Next_Js #Tailwind #Apollo_GraphQL #Github_Actions #Docker #Jest #Playwright #Caddy #Nginx #TypeORM #PostgreSQL",
+    desc: {
+      fr: "Projet fil rouge de l'alternance Concepteur Développeur d'Application, où l'utilisateur peut suivre son bilan carbone.",
+      en: "My fullstack certification project: a vegan recipes website, with weekly menu composition and grocery list.",
+    },
+    descTwo: {
+      fr: "Il ne reste actuellement que quelque derniers soucis de CI/CD à régler pour l'un des services.",
+      en: "There is currently only some CI/CD issues remaining to fix for one of our services.",
     },
     status: { fr: "En cours", en: "In progress" },
   },
