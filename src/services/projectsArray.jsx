@@ -182,7 +182,7 @@ const projectsArray = [
       "#Next_Js #Tailwind #Apollo_GraphQL #Github_Actions #Docker #Jest #Playwright #Caddy #Nginx #TypeORM #PostgreSQL",
     desc: {
       fr: "Projet fil rouge de l'alternance Concepteur Développeur d'Application, où l'utilisateur peut suivre son bilan carbone.",
-      en: "My fullstack certification project: a vegan recipes website, with weekly menu composition and grocery list.",
+      en: "This is the project i worked on throughout my apprenticeship of Application Designer and Developper, in which users can follow their carbon footprint.",
     },
     descTwo: {
       fr: "Il ne reste actuellement que quelque derniers soucis de CI/CD à régler pour l'un des services.",
