@@ -11,9 +11,14 @@ function Welcome({ language, isTransitionning }) {
         </h1>
         <h2 className={isTransitionning ? "languageTransition" : ""}>
           {language === "fr"
-            ? "Developpeur Web FullStack, Scénariste, Auteur, Créateur de Contenu"
-            : "Web Developper FullStack, Scenarist, Author, Content Creator"}
+            ? "Developpeur Web FullStack, Concepteur d'Application"
+            : "Web Developper FullStack, Application Designer"}
         </h2>
+        <h3 className={isTransitionning ? "languageTransition" : ""}>
+          {language === "fr"
+            ? "Scénariste, Auteur, Créateur de Contenu"
+            : "Scenarist, Author, Content Creator"}
+        </h3>
       </div>
     </section>
   );
