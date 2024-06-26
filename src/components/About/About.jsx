@@ -24,7 +24,7 @@ function About({ language, isTransitionning }) {
       id="aboutSection"
       className={isTransitionning ? "languageTransition" : ""}
     >
-      <h1>{language === "fr" ? "À propos" : "About Me"}</h1>
+      <h2>{language === "fr" ? "À propos" : "About Me"}</h2>
 
       <div id="aboutBox">
         {language === "fr" ? (

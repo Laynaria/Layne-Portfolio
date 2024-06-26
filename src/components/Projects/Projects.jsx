@@ -26,7 +26,7 @@ function Card({ language, isTransitionning }) {
       id="projectsSection"
       className={isTransitionning ? "languageTransition" : ""}
     >
-      <h1>{language === "fr" ? "Projets" : "Projects"}</h1>
+      <h2>{language === "fr" ? "Projets" : "Projects"}</h2>
       <div id="projectsCards">
         {projectsArray
           .map((project) => (
