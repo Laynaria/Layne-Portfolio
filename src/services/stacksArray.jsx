@@ -10,8 +10,14 @@ import apirestLogo from "../assets/tools/apirest.svg";
 import figmaLogo from "../assets/tools/figma.svg";
 import gitLogo from "../assets/tools/git.svg";
 import githubLogo from "../assets/tools/github.svg";
+import githubActionsLogo from "../assets/tools/actions.svg";
 import scrumLogo from "../assets/tools/scrum.svg";
-import wordpressLogo from "../assets/tools/wordpress.svg";
+import dockerLogo from "../assets/tools/docker.svg";
+import cicdLogo from "../assets/tools/cicd.svg";
+import jestLogo from "../assets/tools/jest.svg";
+import playwrightLogo from "../assets/tools/playwright.svg";
+import caddyLogo from "../assets/tools/caddy.svg";
+import nginxLogo from "../assets/tools/nginx.svg";
 
 const stacksArray = [
   {
@@ -48,8 +54,14 @@ const stacksArray = [
       { id: 0, name: "Figma", img: figmaLogo },
       { id: 1, name: "Git", img: gitLogo },
       { id: 2, name: "Github", img: githubLogo },
-      { id: 3, name: "Scrum", img: scrumLogo },
-      { id: 4, name: "Wordpress", img: wordpressLogo },
+      { id: 3, name: "Github Actions", img: githubActionsLogo },
+      { id: 4, name: "Scrum", img: scrumLogo },
+      { id: 5, name: "Docker", img: dockerLogo },
+      { id: 6, name: "CI/CD", img: cicdLogo },
+      { id: 7, name: "Jest", img: jestLogo },
+      { id: 8, name: "Playwright", img: playwrightLogo },
+      { id: 9, name: "Caddy", img: caddyLogo },
+      { id: 10, name: "Nginx", img: nginxLogo },
     ],
   },
 ];

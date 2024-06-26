@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 0 1rem;
+  gap: 0 6rem;
   width: 100%;
   color: yellow;
 
@@ -21,6 +21,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 0 1rem;
+    flex: 1 1 29%;
 
     h3 {
       padding-bottom: 0.5rem;
